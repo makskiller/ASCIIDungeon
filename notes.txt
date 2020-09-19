@@ -1,0 +1,98 @@
+OLA robi new game
+Kuba wymysla klasy bohaterow i wszystkie predyspozycje
+ja robie klasy
+-------------
+
+ATRYBUTY
+
+LVL level (poziom doswiadczenia)
+HP życie (punkty zdrowia)                                       ()
+END wytrzymalosc (ilosc atakow fizycznych)                      ()
+MANA mana (ilosc atakow magicznych)                             ()
+CON-P kondycja fizyczna (odnawianie wytrzymalosci)              ()
+CON-M kondycja magiczna (odnawianie many)                       ()
+DEF-P obrona fizyczna (ogranicza dostawane obrazenia fizyczne)  ()
+DEF-M obrona magiczna (ogranicza dostawane obrazenia magiczne)  ()
+STR-P siła (obrażenia fizyczne)                                 ()
+STR-M magia (obrażenia magiczne)                                ()
+
+ACC celność (szansa na trafienie)
+INT inteligencja (zdolnosc rzucenia czaru danego poziomu)
+LUCK szczęście (szansa na dropy)
+AGT zręczność (szansa na otwieranie zamków)
+TRD trade (szansa na lepsze ceny)
+POP popularność (szansa na ucieczke przeciwnika)
+
+KLASY
+
+Knight
+Mage
+Ranger
+Thief
+
+
+
+
+
+KLASY
+--------------------
+Rycerz
+-siła +
+-celność
+-życie +
+-trade
+-zrecznosc
+-inteligencja
+-skradanie
+-szybkość
+-----------------
+Mag
+-siła -
+-celność
+-życie
+-trade
+-zreczność
+-inteligencja +
+-skradanie
+-szybkość
+---------------------------------
+Archer
+-siła
+-celność +
+-życie
+-trade
+-zreczność +
+-inteligencja
+-skradanie
+-szybkość
+------------------------------
+Złodziej
+-siła
+-celność
+-życie
+-trade +
+-zreczność +
+-inteligencja
+-skradanie +
+-szybkość
+---------------------------------
+Paladyn
+-siła +
+-celność
+-życie +
+-trade
+-zreczność
+-inteligencja +
+-skradanie
+-szybkość
+-------------------------------------
+Samuraj
+-siła +
+-celność +
+-życie
+-trade
+-zreczność
+-inteligencja
+-skradanie
+-szybkość +
+--------------------------

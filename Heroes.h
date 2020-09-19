@@ -1,1 +1,4 @@
-void heroes
+void heroes()
+{
+
+}
