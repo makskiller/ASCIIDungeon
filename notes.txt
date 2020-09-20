@@ -6,6 +6,7 @@ ja robie klasy
 ATRYBUTY
 
 LVL level (poziom doswiadczenia)
+EXP experience (punkty doswiadczenia)
 HP życie (punkty zdrowia)                                       ()
 END wytrzymalosc (ilosc atakow fizycznych)                      ()
 MANA mana (ilosc atakow magicznych)                             ()
@@ -96,3 +97,11 @@ Samuraj
 -skradanie
 -szybkość +
 --------------------------
+Exp
+1lvl 10xp
+2lvl 20xp
+3lvl 40xp
+4lvl 80xp
+5lvl 160xp
+exp= 10*2^lvl-1
+----------------------------

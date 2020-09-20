@@ -34,7 +34,6 @@
 		</Compiler>
 		<Unit filename="Heroes.cpp" />
 		<Unit filename="Heroes.h" />
-		<Unit filename="TEST.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

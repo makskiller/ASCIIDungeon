@@ -4,7 +4,7 @@ using namespace std;
 int choice;
 string name;
 
-int menu()
+void menu()
   {
 
     cout<<"--------------------"<<endl;
@@ -44,7 +44,26 @@ int menu()
   }
 
 
-int new_game()
+void new_game()
 {
-
+  int choice;
+  cout<<"|             New Game            |"<<endl<<endl<<endl;
+  cout<<"Choose hero class: "<<endl;
+  cout<<"1. Knight  "<<endl;
+  cout<<"-more hp -more physic defense and strength  "<<endl;
+  cout<<"2. Mage   "<<endl;
+  cout<<"-less hp -more mana - more magic defense and strength "<<endl;
+  cin>>choice;
+  set_hero(choice);
+}
+void set_hero(int ch)
+{
+  switch(ch)
+    {
+      case 1:
+        {
+                              //Knight
+        }
+      break;
+    }
 }
