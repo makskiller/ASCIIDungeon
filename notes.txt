@@ -105,3 +105,43 @@ Exp
 5lvl 160xp
 exp= 10*2^lvl-1
 ----------------------------
+
+
+void save(Cat k)
+    {
+        fstream file;
+        file.open("save.txt", ios::in | ios::out | ios::trunc);
+        if(file.good())
+            {
+                cout<<"File opened, proceding... "<<endl;
+                file<<k.hp<<endl;
+                file<<k.name;
+            }
+        else
+            {
+                cout<<"File is corrupted"<<endl;
+            }
+        file.close();
+    }    Cat kot2;
+void load()
+    {
+        fstream file;
+        kot2.hp+=1;
+        file.open("save.txt", ios::in | ios::out);
+        if(file.good())
+            {
+                cout<<"File opened, proceding... "<<endl;
+                file>>kot2.hp;
+                file>>kot2.name;
+            }
+        else
+            {
+                cout<<"File is corrupted"<<endl;
+            }
+        file.close();
+    }
+//------------------------------------------
+Problem z klasami:
+-wszyscy bohaterowie musza miec te same zmienne i nazwy funkcji
+-trzeba używać tylko wskaźników
+-

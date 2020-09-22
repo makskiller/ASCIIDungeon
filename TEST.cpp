@@ -1,10 +1,12 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
+
 class Animal
     {
     public:
-        int hp;
+        int hp=5;
     };
 class Dog :public Animal
     {
@@ -20,9 +22,15 @@ void makeanimal()
     {
         Cat kot;
     }
+    Cat kot;
+    Dog pies;
+    Animal *pointer;
 int main()
 {
-    makeanimal();
-    cout<<kot.name;
+    pointer = &kot;
+    cout<<pointer->hp;
+
+
+
     return 0;
 }

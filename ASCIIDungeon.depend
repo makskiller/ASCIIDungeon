@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1600801513 source:c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\main.cpp
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	<stdio.h>
+	"Heroes.h"
+	"menu.h"
+
+1600802081 c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\heroes.h
+
+1600802081 c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\menu.h
+
+1600801513 source:c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\heroes.cpp
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	<stdio.h>
+	"Heroes.h"
+	"menu.h"
+
+1600799667 c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\main.h
+
+1600799922 source:c:\users\maksk\desktop\cpp\asciidungeon\asciidungeon\menu.cpp
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	<stdio.h>
+	"Heroes.h"
+	"menu.h"
+	"main.h"
+
